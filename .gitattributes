@@ -1,0 +1,5 @@
+MEvents2015.csv filter=lfs diff=lfs merge=lfs -text
+MEvents2016.csv filter=lfs diff=lfs merge=lfs -text
+MEvents2017.csv filter=lfs diff=lfs merge=lfs -text
+MEvents2018.csv filter=lfs diff=lfs merge=lfs -text
+MEvents2019.csv filter=lfs diff=lfs merge=lfs -text
