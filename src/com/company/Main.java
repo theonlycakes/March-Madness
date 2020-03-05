@@ -6,6 +6,8 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class Main {
+    //Makes arraylist to store the names
+    public static ArrayList <String> teamNames = new ArrayList();
     public static void main(String[] args)  {
 
         //GUI code kind of works
@@ -134,8 +136,7 @@ public class Main {
         f.setVisible(true);
         //End of GUI elements for input
 
-        //Makes arraylist to store the names
-        ArrayList teamNames = new ArrayList();
+
 
         //Get the submit button to record the team names
         submit.addActionListener(new ActionListener() {
@@ -143,30 +144,31 @@ public class Main {
             public void actionPerformed(ActionEvent e) {
 
                 //gets the text from the Textfields and
-                teamNames.add(seed1T.getText());
-                teamNames.add(seed2T.getText());
-                teamNames.add(seed3T.getText());
-                teamNames.add(seed4T.getText());
-                teamNames.add(seed5T.getText());
-                teamNames.add(seed6T.getText());
-                teamNames.add(seed7T.getText());
-                teamNames.add(seed8T.getText());
-                teamNames.add(seed9T.getText());
-                teamNames.add(seed10T.getText());
-                teamNames.add(seed11T.getText());
-                teamNames.add(seed12T.getText());
-                teamNames.add(seed13T.getText());
-                teamNames.add(seed14T.getText());
-                teamNames.add(seed15T.getText());
-                teamNames.add(seed16T.getText());
+                teamNames.add(0,seed1T.getText());
+                teamNames.add(1,seed2T.getText());
+                teamNames.add(2,seed3T.getText());
+                teamNames.add(3,seed4T.getText());
+                teamNames.add(4,seed5T.getText());
+                teamNames.add(5,seed6T.getText());
+                teamNames.add(6,seed7T.getText());
+                teamNames.add(7,seed8T.getText());
+                teamNames.add(8,seed9T.getText());
+                teamNames.add(9,seed10T.getText());
+                teamNames.add(10,seed11T.getText());
+                teamNames.add(11,seed12T.getText());
+                teamNames.add(12,seed13T.getText());
+                teamNames.add(13,seed14T.getText());
+                teamNames.add(14,seed15T.getText());
+                teamNames.add(15,seed16T.getText());
 
                 //Send the team names to become the codes
                 toTeamCodes send = new toTeamCodes();
                 try {
-                    send.toTeamCodes(teamNames);
+                    send.toTeamCodes();
                 } catch (FileNotFoundException ex) {
                     ex.printStackTrace();
                 }
+
             }
         });
 
