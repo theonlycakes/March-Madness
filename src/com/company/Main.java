@@ -2,6 +2,8 @@ package com.company;
 
 import java.awt.*;
 import java.awt.event.*;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args)  {
@@ -132,6 +134,41 @@ public class Main {
         f.setVisible(true);
         //End of GUI elements for input
 
-        //
+        //Makes arraylist to store the names
+        ArrayList teamNames = new ArrayList();
+
+        //Get the submit button to record the team names
+        submit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                //gets the text from the Textfields and
+                teamNames.add(seed1T.getText());
+                teamNames.add(seed2T.getText());
+                teamNames.add(seed3T.getText());
+                teamNames.add(seed4T.getText());
+                teamNames.add(seed5T.getText());
+                teamNames.add(seed6T.getText());
+                teamNames.add(seed7T.getText());
+                teamNames.add(seed8T.getText());
+                teamNames.add(seed9T.getText());
+                teamNames.add(seed10T.getText());
+                teamNames.add(seed11T.getText());
+                teamNames.add(seed12T.getText());
+                teamNames.add(seed13T.getText());
+                teamNames.add(seed14T.getText());
+                teamNames.add(seed15T.getText());
+                teamNames.add(seed16T.getText());
+
+                //Send the team names to become the codes
+                toTeamCodes send = new toTeamCodes();
+                try {
+                    send.toTeamCodes(teamNames);
+                } catch (FileNotFoundException ex) {
+                    ex.printStackTrace();
+                }
+            }
+        });
+
     }
 }
