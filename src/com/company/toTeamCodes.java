@@ -2,10 +2,11 @@ package com.company;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 
 import static com.company.Main.teamNames;
+import static com.company.playersToTeams.teams;
 
 public class toTeamCodes {
     public void toTeamCodes() throws FileNotFoundException {
@@ -15,9 +16,9 @@ public class toTeamCodes {
         //String to store temp
         String storageString [];
         //Opens the file in a Scanner to read the data
-        Scanner teams = new Scanner(teamCodeFile, "iso-8859-1");
-        while (teams.hasNextLine()) {
-            storageString = teams.nextLine().split(",");
+        Scanner teamsSearch = new Scanner(teamCodeFile, "iso-8859-1");
+        while (teamsSearch.hasNextLine()) {
+            storageString = teamsSearch.nextLine().split(",");
             //Checks if makes any name and converts to the number
             if(storageString[0].equalsIgnoreCase(teamNames.get(0))) {
                 teamNames.remove(0);
@@ -69,5 +70,13 @@ public class toTeamCodes {
                 teamNames.add(15,storageString[1]);
             }
         }
+        //Small start to performance increase
+        teamsSearch.close();
+        //Makes a HashMap for each team
+        for (String teamAddHash: teamNames){
+            teams.put(teamAddHash, new HashMap<>());
+        }
+        //Executes code to add the players to the teams
+        playersToTeams sendTeamCodes = new playersToTeams();
     }
 }

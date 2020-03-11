@@ -143,7 +143,7 @@ public class Main {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                //gets the text from the Textfields and
+                //gets the text from the Textfields and adds to array
                 teamNames.add(0,seed1T.getText());
                 teamNames.add(1,seed2T.getText());
                 teamNames.add(2,seed3T.getText());
