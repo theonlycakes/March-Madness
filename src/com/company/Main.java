@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 public class Main {
-    //Makes arraylist to store the names
+    //Makes ArrayList to store the names
     public static ArrayList <String> teamNames = new ArrayList();
     public static void main(String[] args)  {
 
@@ -85,23 +85,8 @@ public class Main {
         f.add(seed1L);
         f.add(seed1T);
 
-        f.add(seed2L);
-        f.add(seed2T);
-
-        f.add(seed3L);
-        f.add(seed3T);
-
-        f.add(seed4L);
-        f.add(seed4T);
-
-        f.add(seed5L);
-        f.add(seed5T);
-
-        f.add(seed6L);
-        f.add(seed6T);
-
-        f.add(seed7L);
-        f.add(seed7T);
+        f.add(seed16L);
+        f.add(seed16T);
 
         f.add(seed8L);
         f.add(seed8T);
@@ -109,26 +94,41 @@ public class Main {
         f.add(seed9L);
         f.add(seed9T);
 
-        f.add(seed10L);
-        f.add(seed10T);
-
-        f.add(seed11L);
-        f.add(seed11T);
+        f.add(seed5L);
+        f.add(seed5T);
 
         f.add(seed12L);
         f.add(seed12T);
 
+        f.add(seed4L);
+        f.add(seed4T);
+
         f.add(seed13L);
         f.add(seed13T);
+
+        f.add(seed6L);
+        f.add(seed6T);
+
+        f.add(seed11L);
+        f.add(seed11T);
+
+        f.add(seed3L);
+        f.add(seed3T);
 
         f.add(seed14L);
         f.add(seed14T);
 
+        f.add(seed7L);
+        f.add(seed7T);
+
+        f.add(seed10L);
+        f.add(seed10T);
+
+        f.add(seed2L);
+        f.add(seed2T);
+
         f.add(seed15L);
         f.add(seed15T);
-
-        f.add(seed16L);
-        f.add(seed16T);
 
         f.add(blank);
         f.add(submit);
@@ -145,27 +145,34 @@ public class Main {
 
                 //gets the text from the Textfields and adds to array
                 teamNames.add(0,seed1T.getText());
-                teamNames.add(1,seed2T.getText());
-                teamNames.add(2,seed3T.getText());
-                teamNames.add(3,seed4T.getText());
-                teamNames.add(4,seed5T.getText());
-                teamNames.add(5,seed6T.getText());
-                teamNames.add(6,seed7T.getText());
-                teamNames.add(7,seed8T.getText());
-                teamNames.add(8,seed9T.getText());
-                teamNames.add(9,seed10T.getText());
-                teamNames.add(10,seed11T.getText());
-                teamNames.add(11,seed12T.getText());
-                teamNames.add(12,seed13T.getText());
-                teamNames.add(13,seed14T.getText());
-                teamNames.add(14,seed15T.getText());
-                teamNames.add(15,seed16T.getText());
+                teamNames.add(1,seed16T.getText());
+                //if statements to not run blank data
+                if(!seed8T.getText().equals("")) {
+                    teamNames.add(2,seed8T.getText());
+                    teamNames.add(3,seed9T.getText());
+                    if(!seed5T.getText().equals("")) {
+                        teamNames.add(4,seed5T.getText());
+                        teamNames.add(5,seed12T.getText());
+                        teamNames.add(6,seed4T.getText());
+                        teamNames.add(7,seed13T.getText());
+                        if(!seed6T.getText().equals("")) {
+                            teamNames.add(8,seed6T.getText());
+                            teamNames.add(9,seed11T.getText());
+                            teamNames.add(10,seed3T.getText());
+                            teamNames.add(11,seed14T.getText());
+                            teamNames.add(12,seed7T.getText());
+                            teamNames.add(13,seed10T.getText());
+                            teamNames.add(14,seed2T.getText());
+                            teamNames.add(15,seed15T.getText());
+                        }
+                    }
+                }
+
 
                 //Send the team names to become the codes
-                toTeamCodes send = new toTeamCodes();
                 try {
-                    send.toTeamCodes();
-                } catch (FileNotFoundException ex) {
+                    toTeamCodes send = new toTeamCodes();
+                } catch (FileNotFoundException | InterruptedException ex) {
                     ex.printStackTrace();
                 }
 
