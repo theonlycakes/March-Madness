@@ -49,4 +49,8 @@ public class players {
         //Gets the score of each shot
         scorePerShot = averageScore * hitRate;
     }
+    public double pShot() {
+        return scorePerShot;
+    }
+
 }

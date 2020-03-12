@@ -58,6 +58,14 @@ public class playersToTeams {
         //waits for threads to finish
         latch.await();
 
+        //Calculate the score per shot for each player
+        for (String teamCode: teamNames) {
+            //runs for all the players in the team
+            for (String player : playerNumbers.get(teamCode)) {
+                teams.get(teamCode).get(player).calculate();
+            }
+        }
+
 
     }
 }
