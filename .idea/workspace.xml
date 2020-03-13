@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="March-Madness:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c7bec5a0-aece-4a53-87a1-cd7b6b9f7d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/newGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/March_Madness_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/finalsGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/teamWin1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/teamWin2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/teamWin3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/March-Madness/com/company/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/March-Madness/com/company/Main$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/March-Madness/com/company/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/March-Madness/com/company/Main$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/March-Madness/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/March-Madness/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/March-Madness/com/company/players.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/March-Madness/com/company/players.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/March-Madness/com/company/playersToTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/March-Madness/com/company/playersToTeams.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/March-Madness/com/company/teamWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/March-Madness/com/company/teamWin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/players.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/players.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/March-Madness/com/company/toTeamCodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/March-Madness/com/company/toTeamCodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/newGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/newGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/playersToTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/playersToTeams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/teamWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/teamWin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/toTeamCodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/toTeamCodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +55,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -94,6 +111,10 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="820" y="161" key="#Project_Structure/0.23.1920.977@0.23.1920.977" timestamp="1583171926182" />
+    <state x="957" y="269" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584122925879">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="957" y="269" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584122925879" />
     <state x="808" y="429" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583618506416">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -102,43 +123,67 @@
       <screen x="1920" y="-1065" width="1920" height="1080" />
     </state>
     <state x="2462" y="-643" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1583630892471" />
+    <state x="690" y="287" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1584122809605">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="287" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584122809605" />
     <state x="656" y="117" key="CommitChangelistDialog2" timestamp="1583431116431">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="656" y="117" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1583431116431" />
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1584017852795">
+    <state x="1008" y="240" key="FileChooserDialogImpl" timestamp="1584122673318">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584017852795" />
+    <state x="1008" y="240" key="FileChooserDialogImpl/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584122673318" />
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1584139933924">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584139933924" />
     <state width="1344" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1583630892605" />
     <state width="679" height="250" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1583433210650" />
-    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1584017852794">
+    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1584139933924">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584017852794" />
+    <state width="1877" height="325" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584139933924" />
     <state width="1344" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1583630892605" />
     <state width="679" height="250" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1583433210649" />
-    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1584017852794">
+    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1584139933924">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584017852794" />
+    <state width="1877" height="325" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584139933924" />
     <state width="1344" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1583630892605" />
     <state width="679" height="250" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1583433210648" />
-    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1584017852794">
+    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1584139933924">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584017852794" />
+    <state width="1877" height="325" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584139933924" />
     <state width="1344" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@1920.-1065.1920.1080" timestamp="1583630892605" />
     <state width="679" height="250" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1583433210649" />
-    <state x="708" y="60" key="SettingsEditor" timestamp="1583885947984">
+    <state x="708" y="60" key="SettingsEditor" timestamp="1584122935815">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="708" y="60" key="SettingsEditor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1583885947984" />
+    <state x="708" y="60" key="SettingsEditor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584122935815" />
     <state x="708" y="77" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1583172147719" />
     <state x="623" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583431135030">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="623" y="254" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1583431135030" />
+    <state x="1032" y="354" key="classpath-attribute-editor" timestamp="1584122750438">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1032" y="354" key="classpath-attribute-editor/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584122750438" />
+    <state x="2057" y="-898" width="1415" height="711" key="dock-window-1" timestamp="1584122015220">
+      <screen x="1920" y="-1065" width="1920" height="1080" />
+    </state>
+    <state x="2057" y="-898" width="1415" height="711" key="dock-window-1/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584122015220" />
+    <state x="236" y="-808" width="1419" height="713" key="dock-window-2" timestamp="1584122104953">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="236" y="-808" width="1419" height="713" key="dock-window-2/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584122104953" />
+    <state x="657" y="331" key="git4idea.merge.GitPullDialog" timestamp="1584044220270">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="657" y="331" key="git4idea.merge.GitPullDialog/0.0.1920.1080/1920.-1065.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1584044220270" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1584016898794">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

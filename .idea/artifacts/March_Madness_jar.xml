@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="March-Madness:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/March_Madness_jar</output-path>
+    <root id="archive" name="March-Madness.jar">
+      <element id="module-output" name="March-Madness" />
+    </root>
+  </artifact>
+</component>

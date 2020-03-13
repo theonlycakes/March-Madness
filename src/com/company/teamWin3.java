@@ -6,7 +6,8 @@ import java.util.Random;
 
 import static com.company.playersToTeams.*;
 
-public class teamWin extends Thread {
+public class teamWin3 extends Thread {
+    //This exists because it works and I don't feel like finding another solution currently
 
     private String team1;
     private String team2;
@@ -14,7 +15,7 @@ public class teamWin extends Thread {
     private double team1Rate;
     private double team2Rate;
     private Thread t;
-    public teamWin(String t1, String t2){
+    public teamWin3(String t1, String t2){
         team1 = t1;
         team2 = t2;
     }
@@ -37,6 +38,7 @@ public class teamWin extends Thread {
         double team1Score = 0;
         double team2Score = 0;
         //Calculates for the best 5 players on the team
+
         for (int i = 1; i < 6;i++) {
             team1Score += 20 * (t1.get(t1.size()-i));
         }
@@ -86,7 +88,7 @@ public class teamWin extends Thread {
             winner = team2;
         }
         //Allows the program to continue
-        latchRound1.countDown();
+        latchRound4.countDown();
     }
 
     public void start() {
